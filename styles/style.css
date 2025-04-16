@@ -125,7 +125,7 @@ figure {
   content: '';
   border-block-end: 6px solid var(--accent-color, #FFAB6B);
   position: absolute;
-  inset-block-end: 0;
+  inset-block-end: 4px;
   inset-inline-end: -4px;
   inline-size: 81px;
   z-index: -1;
@@ -134,7 +134,7 @@ figure {
 .theme_dark .header__theme-button_is-active::after {
   background: url('../images/pattern.svg') repeat-x;
   inline-size: 81px;
-  inset-block-end: 0;
+  inset-block-end: 4px;
   inset-inline-end: -8px;
 }
 
